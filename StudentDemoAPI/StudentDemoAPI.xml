@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>StudentDemoAPI</name>
+    </assembly>
+    <members>
+        <member name="M:StudentDemoAPI.Controllers.StudentController.GetAllStudent">
+            <summary>
+            Gets all the student in the database
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:StudentDemoAPI.Controllers.StudentController.GetStudentById(System.Int32)">
+            <summary>
+            Get individual student in park based on id
+            </summary>
+            <param name="studentId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:StudentDemoAPI.Controllers.StudentController.CreateStudent(StudentDemoAPI.Models.DTOs.StudentCreateDTO)">
+            <summary>
+            Create new student
+            </summary>
+            <param name="studentDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:StudentDemoAPI.Controllers.StudentController.UpdateStudent(System.Int32,StudentDemoAPI.Models.DTOs.StudentUpdateDTO)">
+            <summary>
+            Updates any part of the student particulars
+            </summary>
+            <param name="studentId"></param>
+            <param name="studentDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:StudentDemoAPI.Controllers.StudentController.PartialUpdateStudent(System.Int32,Microsoft.AspNetCore.JsonPatch.JsonPatchDocument{StudentDemoAPI.Models.DTOs.StudentUpdateDTO})">
+            <summary>
+            Partially Update student particulars
+            </summary>
+            <param name="studentId"></param>
+            <param name="patchDoc"></param>
+            <returns></returns>
+        </member>
+        <member name="M:StudentDemoAPI.Controllers.StudentController.DeleteStudent(System.Int32)">
+            <summary>
+            Delete Student from the database
+            </summary>
+            <param name="studentId"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
