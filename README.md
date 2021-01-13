@@ -93,7 +93,7 @@ The project is open to collaboration and is fully open-source.
 # Contributor
 Isaac Gabriel
 
-# LICENSE
+# License
 MIT
 
 # Project Status
