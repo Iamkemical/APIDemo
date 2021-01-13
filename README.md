@@ -45,6 +45,9 @@ API Versioning was integrated into the project so you can have different version
 ## XML Comments
 The API also has XML Comments on relevant methods, actions and controllers for the purpose of clarity.
 
+## Deployment
+The API was deployed to AWS Elastic Beanstalk while the MSSQL Database was deployed to AWS RDS.
+
 # Installation
 ## Visual Studio
 1. Clone the project on your local computer or download as Zip folder. 
