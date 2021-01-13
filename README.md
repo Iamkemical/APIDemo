@@ -1,7 +1,7 @@
 # Project Name
 Student CRUD API
 
-#Description
+# Description
 Student CRUD API is a web API that perform Create, Read, Update and Delete Actions on the Database for a Student Entity.
 The project is built using the .Net Core 3.1 (LTS) SDK.
 
