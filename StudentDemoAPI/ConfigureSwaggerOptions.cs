@@ -11,6 +11,9 @@ using System.Threading.Tasks;
 
 namespace StudentDemoAPI
 {
+    /// <summary>
+    /// Implements xml comments and api versioning on the SwaggerUI
+    /// </summary>
     public class ConfigureSwaggerOptions : IConfigureOptions<SwaggerGenOptions>
     {
         readonly IApiVersionDescriptionProvider provider;

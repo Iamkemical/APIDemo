@@ -4,6 +4,11 @@
         <name>StudentDemoAPI</name>
     </assembly>
     <members>
+        <member name="T:StudentDemoAPI.ConfigureSwaggerOptions">
+            <summary>
+            Implements xml comments and api versioning on the SwaggerUI
+            </summary>
+        </member>
         <member name="M:StudentDemoAPI.Controllers.StudentController.GetAllStudent">
             <summary>
             Gets all the student in the database
@@ -45,6 +50,65 @@
             Delete Student from the database
             </summary>
             <param name="studentId"></param>
+            <returns></returns>
+        </member>
+        <member name="T:StudentDemoAPI.Repository.IRepository.IStudentRepository">
+            <summary>
+            An interface contract for the student respository
+            </summary>
+        </member>
+        <member name="M:StudentDemoAPI.Repository.StudentRepository.#ctor(StudentDemoAPI.DataAccess.ApplicationDbContext)">
+            <summary>
+            This initialises the ApplicationDbContext from the DI Container
+            </summary>
+            <param name="dbContext"></param>
+        </member>
+        <member name="M:StudentDemoAPI.Repository.StudentRepository.CreateStudent(StudentDemoAPI.Models.StudentModel)">
+            <summary>
+            Creates student by adding the studentModel parameter to the Student EFCore instance.
+            </summary>
+            <param name="studentModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:StudentDemoAPI.Repository.StudentRepository.DeleteStudent(StudentDemoAPI.Models.StudentModel)">
+            <summary>
+            Deletes student by removing the studentModel parameter from the Student EFCore instance.
+            </summary>
+            <param name="studentModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:StudentDemoAPI.Repository.StudentRepository.GetAllStudent">
+            <summary>
+            Gets all the student from the database using EFCore.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:StudentDemoAPI.Repository.StudentRepository.GetStudentById(System.Int32)">
+            <summary>
+            Gets a student entity based on the id passed using EFCore.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:StudentDemoAPI.Repository.StudentRepository.Save">
+            <summary>
+            Saves all the changes based on actions such as the create, update
+            and delete actions on the database using EFCore.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:StudentDemoAPI.Repository.StudentRepository.StudentExist(System.Int32)">
+            <summary>
+            returns a boolean if the student exist based on the id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:StudentDemoAPI.Repository.StudentRepository.UpdateStudent(StudentDemoAPI.Models.StudentModel)">
+            <summary>
+            updates the student entity passed into the studentModel parameter.
+            </summary>
+            <param name="studentModel"></param>
             <returns></returns>
         </member>
     </members>

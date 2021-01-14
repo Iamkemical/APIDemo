@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace StudentDemoAPI.Repository.IRepository
 {
+    /// <summary>
+    /// An interface contract for the student respository
+    /// </summary>
     public interface IStudentRepository
     {
         IEnumerable<StudentModel> GetAllStudent();
