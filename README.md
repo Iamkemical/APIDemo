@@ -97,4 +97,4 @@ Isaac Gabriel
 MIT
 
 # Project Status
-Currently there are no new features to add to the API. But the project would be migrated  to .NET 5.
+Currently there are no new features to be added to the API. But the project would be migrated  to .NET 5.
