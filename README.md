@@ -36,8 +36,8 @@ The internal data access layer (Model) comprises of:
 The API performs error logging using an integrated logging provider, NLog, this helps with logging errors to a file on the local machine.
 See Documentation for more information on how to use NLog (https://github.com/NLog/NLog)
 
-## Unit testing with xUnit and Moq
-Unit testing is integrated into the application using popular unit testing libraries, xUnit and Moq.
+## Unit testing with NUnit and Moq
+Unit testing is integrated into the application using popular unit testing libraries, NUnit and Moq.
 
 ## API Versioning 
 API Versioning was integrated into the project so you can have different versions of the API all running concurrently on Swagger.
@@ -97,4 +97,4 @@ Isaac Gabriel
 MIT
 
 # Project Status
-Currently there are no new features to add to the API. But the project would be migrated  to .NET 5.
+Currently there are no new features to be added to the API. But the project would be migrated  to .NET 5.
