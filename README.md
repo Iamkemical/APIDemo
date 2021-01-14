@@ -48,6 +48,8 @@ The API also has XML Comments on relevant methods, actions and controllers for t
 ## Deployment
 The API was deployed to AWS Elastic Beanstalk while the MSSQL Database was deployed to AWS RDS.
 
+![alt text](https://github.com/Iamkemical/APIDemo/blob/main/SwaggerUI.PNG)
+
 # Installation
 ## Visual Studio
 1. Clone the project on your local computer or download as Zip folder. 
