@@ -12,7 +12,7 @@ The project is built using the .Net Core 3.1 (LTS) SDK.
 4. Open API Specification.
 5. Swagger Documentation.
 6. XML Comments.
-7. Unit Testing using xUnit & Moq.
+7. Unit Testing using NUnit & Moq.
 8. Logging of errors and exceptions using third-party logging provider e.g NLog.
 9. API Versioning.
 
