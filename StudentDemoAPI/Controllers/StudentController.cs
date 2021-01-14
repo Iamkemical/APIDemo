@@ -53,7 +53,7 @@ namespace StudentDemoAPI.Controllers
             return Ok(objDto);
         }
         /// <summary>
-        /// Get individual student in park based on id
+        /// Get individual student in database based on id
         /// </summary>
         /// <param name="studentId"></param>
         /// <returns></returns>
